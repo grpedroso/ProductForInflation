@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductInflation.Shared.Model", "ProductInflation.Shared.Model", "{6BC3471B-876E-455B-8B72-4A3E3C12C3A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductInflation.Shared.Data", "ProductInflation.Shared.Data", "{EB557784-34B7-404C-9D16-FACE6A4F7D66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{2FEF8E61-0FB8-496B-AF56-50EC3513B74D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductInflation.Shared.Data", "ProductInflation.Shared.Data\ProductInflation.Shared.Data.csproj", "{9C664C92-B0E5-4247-8512-D6EF9C306A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductInflation.Shared.Models", "ProductInflation.Shared.Models\ProductInflation.Shared.Models.csproj", "{8C662562-56C4-4BBD-B489-0A1CAD1664CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductInflation.API", "ProductInflation.API\ProductInflation.API.csproj", "{A4B7F662-D907-42DF-A86B-11FBB48320E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C664C92-B0E5-4247-8512-D6EF9C306A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C664C92-B0E5-4247-8512-D6EF9C306A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C664C92-B0E5-4247-8512-D6EF9C306A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C664C92-B0E5-4247-8512-D6EF9C306A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C662562-56C4-4BBD-B489-0A1CAD1664CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C662562-56C4-4BBD-B489-0A1CAD1664CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C662562-56C4-4BBD-B489-0A1CAD1664CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C662562-56C4-4BBD-B489-0A1CAD1664CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B7F662-D907-42DF-A86B-11FBB48320E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B7F662-D907-42DF-A86B-11FBB48320E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B7F662-D907-42DF-A86B-11FBB48320E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B7F662-D907-42DF-A86B-11FBB48320E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FEF8E61-0FB8-496B-AF56-50EC3513B74D} = {EB557784-34B7-404C-9D16-FACE6A4F7D66}
+		{9C664C92-B0E5-4247-8512-D6EF9C306A4D} = {EB557784-34B7-404C-9D16-FACE6A4F7D66}
+		{8C662562-56C4-4BBD-B489-0A1CAD1664CB} = {6BC3471B-876E-455B-8B72-4A3E3C12C3A2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B60B69E9-A521-4951-ADE0-68C0671464BD}
+	EndGlobalSection
+EndGlobal
